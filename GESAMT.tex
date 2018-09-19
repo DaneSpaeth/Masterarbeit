@@ -1,0 +1,53 @@
+\input{arbeit-vorlage-praeambel.tex}
+%\renewcommand*{\chapterheadstartvskip}{\vspace*{.3\baselineskip}}
+\graphicspath{{Grafiken/}}
+\usepackage{aas_macros}
+
+%new commands for math mode
+	\newcommand{\difD}{\text{d}}
+	
+	%Integrals etc.:
+	\newcommand{\intD}{\,\text{d}}
+	
+	%10hoch - wissenschaftlich schreiben
+	\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+
+%Setze Anteil den Float maximal von seite haben darf -  Standard 60%
+\renewcommand{\floatpagefraction}{.8}%
+	
+%schönere Links
+\usepackage{xcolor}
+\hypersetup{
+	colorlinks,
+	linkcolor={red!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+}
+
+\title{Developing Software for the Waltz Telescope}
+\author{Dane Späth}
+\begin{document}
+\pagenumbering{Roman} % Seitenummerierung mit großen römischen Zahlen 
+\pagestyle{empty} % kein Kopf- oder Fußzeilen auf den ersten Seiten
+
+% Titelseite
+\clearscrheadings\clearscrplain
+\begin{singlespacing}
+\include{Titel}
+
+\end{singlespacing}
+
+\cleardoublepage 
+\thispagestyle{empty}
+\newpage
+\include{Introduction}
+
+\newpage
+\include{Basics}
+
+\newpage
+\include{BookContents}
+
+\bibliography{Literature}
+
+\end{document}

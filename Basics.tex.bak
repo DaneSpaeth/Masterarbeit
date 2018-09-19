@@ -1,0 +1,30 @@
+\chapter{Basics}
+\section{Choice of Python}
+\begin{itemize}
+\item Easy to read
+\item most used in science (easy access for new students and other scientists with little knowledge of other languages)
+\item No need for fast calculations (possible biggest disadvantage of Python but solveable by using CPython built-ins or C)
+\end{itemize}
+
+\section{Implications of using python}
+\begin{itemize}
+\item One possible paradigma: Object Oriented Programming but also allows for functional programming
+\begin{itemize}
+\item Leads to well structured code
+\item We have real world objects (telescope, coordinates, targets, CCD images, cameras, mirrors) and OOP is best way to model real world things
+\item Easy to apply widely known design patterns leading to easy to understand code (many different sources explaining ideas behind design, future readers will not depend on author of this thesis)
+\item GUI interacts nicely with OOP (???)
+\item Leads to modularity, using of Plug Ins to be able to not depend on components
+\item Combine with functional programming for more logic based code
+\end{itemize}
+
+\item Combine with Duck-typing
+\item Pythonic Conventions (PEP8) leads to nice to read code (realistically if everything works no one will want to look at everything to make small changes. So it is important that the program is cleanly structured and easy to read to make small changes)
+\item Also:
+
+\begin{itemize}
+\item Dynamically, strongly typed
+\item No interfaces
+\item Multiple inheritance
+\end{itemize} 
+\end{itemize}
