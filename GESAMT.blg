@@ -9,30 +9,30 @@ A level-1 auxiliary file: BookContents.aux
 Database file #1: Literature.bib
 You've used 1 entry,
             1935 wiz_defined-function locations,
-            486 strings with 3875 characters,
-and the built_in function-call counts, 325 in all, are:
-= -- 34
+            481 strings with 3807 characters,
+and the built_in function-call counts, 292 in all, are:
+= -- 25
 > -- 7
 < -- 1
 + -- 2
 - -- 2
-* -- 21
-:= -- 65
-add.period$ -- 5
+* -- 17
+:= -- 58
+add.period$ -- 3
 call.type$ -- 1
-change.case$ -- 6
+change.case$ -- 5
 chr.to.int$ -- 1
 cite$ -- 1
 duplicate$ -- 14
 empty$ -- 24
 format.name$ -- 3
-if$ -- 64
+if$ -- 55
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 2
-newline$ -- 9
+newline$ -- 8
 num.names$ -- 3
-pop$ -- 3
+pop$ -- 8
 preamble$ -- 1
 purify$ -- 6
 quote$ -- 0
@@ -47,4 +47,4 @@ type$ -- 4
 warning$ -- 0
 while$ -- 2
 width$ -- 0
-write$ -- 19
+write$ -- 14

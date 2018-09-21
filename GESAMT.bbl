@@ -1,10 +1,8 @@
 \begin{thebibliography}{}
 
-\bibitem[Gamma, 2011]{Gamma11}
-Gamma, E. (2011).
-\newblock {\em Entwurfsmuster}.
-\newblock Programmer's choice. Addison-Wesley, M{\"u}nchen [u.a.], [6. aufl.]
-  edition.
-\newblock Auflagenbez. dem Vorwort entnommen.
+\bibitem[Moore, 2018]{Moore18}
+Moore, A.~D. (2018).
+\newblock {\em Python GUI Programming with Tkinter}.
+\newblock Packt Publishing.
 
 \end{thebibliography}
